@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE18CCF62E014F9200FF9671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE18CCF52E014F9200FF9671 /* GoogleService-Info.plist */; };
 		AE47445F2DFEB23300402C31 /* WordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47445E2DFEB23200402C31 /* WordListViewController.swift */; };
 		AE4DB9E42DFFD0E800375467 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DB9E32DFFD0E800375467 /* QuizViewController.swift */; };
 		AE4DB9E62DFFD78D00375467 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DB9E52DFFD78D00375467 /* MainMenuViewController.swift */; };
-		AE4DB9E82DFFDE1D00375467 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE4DB9E72DFFDE1D00375467 /* GoogleService-Info.plist */; };
 		AE7AB2452DFFEA3C00889878 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AE7AB2442DFFEA3C00889878 /* FirebaseFirestore */; };
 		AE7AB2472DFFF12800889878 /* QuizCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7AB2462DFFF12800889878 /* QuizCategoryViewController.swift */; };
 		AE7AB2492E01101600889878 /* WrongNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7AB2482E01101600889878 /* WrongNoteViewController.swift */; };
@@ -26,10 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE18CCF52E014F9200FF9671 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AE47445E2DFEB23200402C31 /* WordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListViewController.swift; sourceTree = "<group>"; };
 		AE4DB9E32DFFD0E800375467 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		AE4DB9E52DFFD78D00375467 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
-		AE4DB9E72DFFDE1D00375467 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AE7AB2462DFFF12800889878 /* QuizCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCategoryViewController.swift; sourceTree = "<group>"; };
 		AE7AB2482E01101600889878 /* WrongNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongNoteViewController.swift; sourceTree = "<group>"; };
 		AE7AB24A2E0112BF00889878 /* WrongNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongNoteCell.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 				AEA58A882DFE680700FB77BF /* Info.plist */,
 				AEA58A902DFE6A1C00FB77BF /* StudyViewController.swift */,
 				AEA58A922DFEAA3E00FB77BF /* WordCell.swift */,
+				AE18CCF52E014F9200FF9671 /* GoogleService-Info.plist */,
 				AE4DB9E32DFFD0E800375467 /* QuizViewController.swift */,
 				AE4DB9E52DFFD78D00375467 /* MainMenuViewController.swift */,
-				AE4DB9E72DFFDE1D00375467 /* GoogleService-Info.plist */,
 			);
 			path = final;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA58A872DFE680700FB77BF /* LaunchScreen.storyboard in Resources */,
-				AE4DB9E82DFFDE1D00375467 /* GoogleService-Info.plist in Resources */,
+				AE18CCF62E014F9200FF9671 /* GoogleService-Info.plist in Resources */,
 				AEA58A842DFE680700FB77BF /* Assets.xcassets in Resources */,
 				AEA58A822DFE680500FB77BF /* Main.storyboard in Resources */,
 			);
